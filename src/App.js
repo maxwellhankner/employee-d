@@ -6,11 +6,14 @@ function App() {
   return (
     <Router>
       <div>
-        hello
+        <div>
+          hello
+        </div>
+        <div>
+          <Route exact path="/" component={Home} />
+        </div>
       </div>
-      <div>
-        <Route exact path="/" component={Home} />
-      </div>
+      
     </Router>
   );
 }
